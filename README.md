@@ -1,12 +1,12 @@
 # Project---Banking-application
 
-Name : Akash Sharma
-Course : Bca (Ai & Ds) Sec : B
-Sem : 3rd
-Department : SOET 
-Session : 2025-26 
-Course Name : Java Programming 
-Faculty : Dr. Manish Kumar 
+Name : Akash Sharma ||
+Course : Bca (Ai & Ds) Sec : B ||
+Sem : 3rd ||
+Department : SOET || 
+Session : 2025-26 ||
+Course Name : Java Programming || 
+Faculty : Dr. Manish Kumar
 
 # Assignment Number: 01 
 Project Title: Banking Application for Account Management 
