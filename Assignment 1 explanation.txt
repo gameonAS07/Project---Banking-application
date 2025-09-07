@@ -1,0 +1,15 @@
+A class in Java is basically like a blueprint for making objects. It defines the properties and actions they can have. In this program, the Account class is used to represent a bank account, holding details like account number, holder’s name, balance, email, and phone number. Every time a new account is created, an object of this class is made.
+
+Encapsulation is used here by keeping the variables private and only allowing access through methods. This way, sensitive details like account number or balance can’t be directly changed from outside, but can still be updated safely through functions like deposit(), withdraw(), and updateContactDetails().
+
+Constructors play a role in setting up an object right when it’s created. The constructor in the Account class makes sure that when a new account is added, all the details like account number, name, balance, and contact info are properly initialized.
+
+To handle multiple accounts, the program uses an array of objects. This array stores all the accounts, and then operations like deposit, withdraw, or searching for a specific account can be done on them.
+
+The program is broken into smaller methods to keep things organized. Different tasks like creating accounts, depositing money, withdrawing, updating details, or showing account information are all handled by separate methods, which makes the code cleaner and easier to follow.
+
+The Scanner class is used for user input, so the program can take details like names, amounts, and account numbers directly from the keyboard.
+
+For decision-making, if-else statements are used to check conditions like whether the entered amount is valid or if there’s enough balance for a withdrawal. A while loop with a switch-case statement is used to build the menu system, so the user can keep performing different actions until they choose to exit.
+
+Lastly, the findAccount() method shows how return values and null handling are used. If the account exists, it returns the account object. If not, it returns null, which helps the program handle cases where someone enters an account number that doesn’t exist.
